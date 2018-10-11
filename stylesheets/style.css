@@ -1,10 +1,99 @@
-font-family: 'PT Serif', serif;
-font-family: 'Homemade Apple', cursive;
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;*/
 
-#name {
-	font-family: 'Homemade Apple', cursive;
+
+body{
+	background-color:#f8faf6;
 }
 
-h3{
-	font-family: 'PT Serif', serif;
+#name {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 30px;
+	width:300px;
+	border: solid #a32704 5px;
+	padding:5px;
+	position: relative;
+	display: flex;
+	text-align:center;
+	float: right;
+	float: top;
+
+}
+
+#about{
+	font-family: 'PT Sans', sans-serif;
+	color:black;
+	font-size: 30px;
+	display: inline-flex;
+	background-color: #f8faf6;
+	padding:15px;
+	float: right;
+	text-decoration: none;
+
+}
+
+#art{
+	font-family: 'PT Sans', sans-serif;
+	color:black;
+	font-size: 30px;
+	display: inline-flex;
+	background-color: #f8faf6;
+	padding:15px;
+	float: right;
+	text-decoration: none;
+}
+
+#digital{
+	font-family: 'PT Sans', sans-serif;
+	color:black;
+	font-size: 30px;
+	display: inline-flex;
+	background-color: #f8faf6;
+	padding:15px;
+	float: right;
+	text-decoration: none;
+}
+
+#contact{
+	font-family: 'PT Sans', sans-serif;
+	color:black;
+	font-size: 30px;
+	display: inline-flex;
+	background-color: #f8faf6;
+	padding:15px;
+	float: right;
+	text-decoration: none;
+
+}
+
+#landingpage{
+	width:50%;
+	height: 50%;
+	display: inline-flex;
+}
+
+a:hover{
+  	color: #a32704;
+  	border: none;
+  	color: black;
+  	padding: 16px 32px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition: 0.3s;
+
+}
+
+#headshot{
+	position:absolute;top:15px;left:15px;
+	width:56.25%;
+	height:350px;
+	display: flex;
+	object-fit: contain;
+}
+
+img{
+	height:175.98px;
+	width:116px;
+	display: inline-flex;
 }
