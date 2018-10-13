@@ -43,7 +43,7 @@ hr{
 
 .firstrow{
 	position: relative;
-	width: 200px;
+	width: 330px;
 	height: 300px;
 	display: inline;
 }
@@ -52,7 +52,7 @@ hr{
 	top:0; left: 0;
 	width: 100%;
 	height: 50%;
-	display: none;
+	color:transparent;
 	align-content: center;
 	color:black;
 	transition:.5s ease;
