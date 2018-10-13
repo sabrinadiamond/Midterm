@@ -58,7 +58,7 @@ hr{
 	transition:.5s ease;
 }
 
-.firstrow:hover .overlay1{
+#amsterdam:hover #overlay1{
 	display: block;
 	background: rgba (0,0,0,.5);
 }
