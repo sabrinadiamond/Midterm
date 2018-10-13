@@ -12,12 +12,20 @@ h2{
 	position: absolute;left:15px; top:0px;
 }
 
+.work{
+	margin: auto;
+	width: 70%;
+	display: inline-block;
+	position: relative;top: 10px;
+}
+
 
 h1{
 	font-family:'Montserrat Subrayada', sans-serif;
 	margin: auto;
 	text-align: center;
-	
+	position: relative;top:30px;
+
 }
 
 hr{
@@ -30,20 +38,28 @@ div{
 
 p{
 	font-family: 'PT Sans', sans-serif;
-	position: relative;top:30px;
+	position: relative;top:70px;
+	margin: 10px;
 }
 
 img{
-	display: inline-block;
+	display: inline;
 	width: 20%;
 	margin: auto;
 	padding: 70px;
 }
 
+#me{
+	width: 30%;
+	margin: 15px;
+	float:left;
+	display: inline-flex;
+}
+
 .banner{
 	position: fixed;top:0px;left:0px;
 	width:100%;
-	height:100px;
+	height:45px;
 	z-index: 1000;
 	background-color:#f8faf6; 
 }
@@ -65,7 +81,7 @@ img{
 }
 #marketing{
 	margin:30px;
-	color:#a32704;
+	color:#000000;
 	text-decoration: none;
 }
 #contact{
@@ -74,11 +90,16 @@ img{
 	text-decoration: none;
 }
 
+#home{
+	text-decoration: none;
+	color:#a32704;
+}
+
 a:hover{
 	color: white;
   	border: none;
   	color: #a32704;
-  	padding: 16px 32px;
+  	padding: 16px 25px;
   	text-align: right;
   	font-size: 16px;
   	margin: 4px 2px;

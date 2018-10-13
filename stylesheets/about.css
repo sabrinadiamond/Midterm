@@ -66,7 +66,7 @@ hr{
 
 #about{
 	margin:30px;
-	color:#a32704;
+	color:#000000;
 	text-decoration: none;
 }
 #art{
@@ -85,11 +85,17 @@ hr{
 	text-decoration: none;
 }
 
+#home{
+	text-decoration: none;
+	color:#a32704;
+}
+
+
 a:hover{
 	color: white;
   	border: none;
   	color: #a32704;
-  	padding: 16px 32px;
+  	padding: 16px 25px;
   	text-align: right;
   	font-size: 16px;
   	margin: 4px 2px;
