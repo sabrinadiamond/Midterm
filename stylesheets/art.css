@@ -13,22 +13,24 @@ h2{
 }
 
 h3{
-	font-family: 'PT Sans', sans-serif;
+	font-family:'Montserrat Subrayada', sans-serif;
 	text-align: center;
-	position: relative;top:30px;
+	position: relative;top:20px;
+	margin-bottom:30px;
+	font-size: 30px;
 
 }
 
 img{
-	max-width: 300px;
+	max-width: 500px;
 	flex-basis:300px;
 	flex-shrink: 1.5;
-	margin:15px;
+	margin: 15px;
 	position: relative;
 }
 
 .parent{
-	position: relative;top:30px;
+	position: relative;
 	display: flex;
 	flex:0 0 auto;
 	overflow: hidden;
@@ -41,32 +43,48 @@ hr{
 	position: relative;bottom:15px;
 }
 
+
 .firstrow{
 	position: relative;
-	width: 330px;
-	height: 300px;
-	display: inline;
+	height: 350px;
+	padding: 15px;
+	display: block;
 }
 .firstrow #overlay1{
+	position: absolute;
+	top:15px; left: 15px;
+	width: 300px;
+	height: 50px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	transition:.5s ease;
+}
+
+.firstrow:hover #overlay1{
+	display: block;
+	background: black;
+}
+
+p{
 	position: absolute;
 	top:0; left: 0;
 	width: 100%;
 	height: 50%;
-	color:transparent;
+	color:rgba(0,0,0,0);
 	align-content: center;
-	color:black;
 	transition:.5s ease;
+	font-family: 'PT Sans', sans-serif;
 }
 
-#amsterdam:hover #overlay1{
+.firstrow:hover p{
 	display: block;
-	background: rgba (0,0,0,.5);
+	color:white;
 }
 
 .banner{
 	position: fixed;top:0px;left:0px;
 	width:100%;
-	height:100px;
+	height:42.5px;
 	z-index: 1000;
 	background-color:#f8faf6; 
 }

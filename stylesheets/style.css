@@ -6,61 +6,65 @@ body{
 	background-color:#f8faf6;
 }
 
+h1{
+	margin: auto;
+	align-items: right;
+}
+
 #photo{
 	display: inline-block;
 	width: 50%;
 }
 
+
 #name {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 40px;
-	width:30%;
+	width:35%;
 	border: solid #a32704 5px;
 	padding:5px;
-	margin-right: 50px;
+	margin-right: 90px;
 	position: relative;
 	text-align:center;
 	float: right;
 	display: inline-block;
-
 }
 
 #about{
 	font-family: 'PT Sans', sans-serif;
 	color:black;
 	font-size: 40px;
-	background-color: #f8faf6;
 	padding:15px;
 	float: right;
 	text-decoration: none;
-
 }
 
 #art{
 	font-family: 'PT Sans', sans-serif;
 	color:black;
 	font-size: 40px;
-	background-color: #f8faf6;
 	padding:15px;
 	float: right;
 	text-decoration: none;
+	position: relative;left:130px;top:10px;
 }
 
 #digital{
 	font-family: 'PT Sans', sans-serif;
 	color:black;
 	font-size: 40px;
-	background-color: #f8faf6;
-	padding:15px;
+	padding:10px;
 	float: right;
 	text-decoration: none;
+	position: relative;
+	display: block;
+	z-index: 90;
 }
 
 #contact{
 	font-family: 'PT Sans', sans-serif;
 	color:black;
 	font-size: 40px;
-	background-color: #f8faf6;
 	padding:15px;
 	float: right;
 	text-decoration: none;
@@ -85,4 +89,5 @@ img{
 
 .all{
 	display: flex;
+	position: relative;top:30px;
 }
