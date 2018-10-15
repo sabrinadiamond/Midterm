@@ -46,39 +46,225 @@ hr{
 
 .firstrow{
 	position: relative;
+	width: 50%;
 	height: 350px;
 	padding: 15px;
 	display: block;
 }
-.firstrow #overlay1{
+
+.overlay1{
 	position: absolute;
-	top:15px; left: 15px;
+	top:15px; left: 30px;
 	width: 300px;
-	height: 50px;
+	height: 70px;
 	color:rgba(0,0,0,0);
 	text-align: center;
-	transition:.5s ease;
-}
-
-.firstrow:hover #overlay1{
-	display: block;
-	background: black;
-}
-
-p{
-	position: absolute;
-	top:0; left: 0;
-	width: 100%;
-	height: 50%;
-	color:rgba(0,0,0,0);
-	align-content: center;
-	transition:.5s ease;
+	margin: auto;
 	font-family: 'PT Sans', sans-serif;
 }
 
 .firstrow:hover p{
 	display: block;
-	color:white;
+	color:#f8faf6;
+	background-color: black;
+	transition: .5s ease;
+}
+
+.overlay2{
+	position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay3{
+	position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay4{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay5{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay6{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay7{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay8{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay9{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay10{
+
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay11{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay12{
+	position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay13{
+	position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay14{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay15{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#overlay16{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay17{
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#overlay18{
+
+position: absolute;
+	top:15px; left: 30px;
+	width: 300px;
+	height: 70px;
+	color:rgba(0,0,0,0);
+	text-align: center;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .banner{

@@ -22,10 +22,10 @@ h1{
 	font-size: 40px;
 	width:35%;
 	border: solid #a32704 5px;
-	padding:5px;
+	padding:15px;
 	margin-right: 90px;
 	position: relative;
-	text-align:center;
+	text-align:right;
 	float: right;
 	display: inline-block;
 }
@@ -53,7 +53,7 @@ h1{
 	font-family: 'PT Sans', sans-serif;
 	color:black;
 	font-size: 40px;
-	padding:10px;
+	padding:15px;
 	float: right;
 	text-decoration: none;
 	position: relative;
